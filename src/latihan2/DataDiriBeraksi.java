@@ -1,14 +1,13 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package latihan2;
 
-/**
- *
- * @author USER
- */
 public class DataDiriBeraksi {
-    
+    public static void main(String[] args) {
+        //Membuat objek
+        DataDiri rizqan = new DataDiri();
+        
+        System.out.println("Nama: "+rizqan.nama());
+        System.out.println("NPM: "+rizqan.npm());
+        System.out.println("Kelas: "+rizqan.kelas());
+        
+    }
 }
